@@ -15,14 +15,14 @@ export const CartProvider = ({ children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const savedCart = localStorage.getItem('vooglam_cart');
+    const savedCart = localStorage.getItem('sac_cart');
     if (savedCart) {
       setCart(JSON.parse(savedCart));
     }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('vooglam_cart', JSON.stringify(cart));
+    localStorage.setItem('sac_cart', JSON.stringify(cart));
   }, [cart]);
 
   const addToCart = (product) => {

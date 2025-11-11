@@ -54,7 +54,7 @@ const Home = () => {
             
             <div className="flex flex-col justify-center">
               <h2 className="text-3xl font-bold mb-2">20% Off First Order</h2>
-              <p className="text-gray-600 mb-6">Join us to get the latest inspiration and trends.</p>
+              <p className="text-gray-600 mb-6">Join Sell Any Chashme to get designer premium eyewear and exclusive offers.</p>
               
               <form onSubmit={handlePromoSubmit} className="space-y-4">
                 <Input

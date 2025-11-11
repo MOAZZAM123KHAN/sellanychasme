@@ -8,9 +8,22 @@ const Footer = () => {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-2">
-            <h2 className="text-2xl font-bold mb-4">vooglam.</h2>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="/WhatsApp Image 2025-11-06 at 5.18.48 PM.jpeg"
+                alt="Sell Any Chashme"
+                className="h-12 w-auto"
+              />
+              <div className="flex flex-col leading-tight">
+                <h2 className="text-xl font-bold">SELL ANY CHASHME</h2>
+                <span className="text-xs text-gray-400">The Optical Company | SAC</span>
+              </div>
+            </div>
+            <p className="text-gray-400 mb-2">
+              Providing Designer Premium Eyewear in your Budget
+            </p>
             <p className="text-gray-400 mb-4">
-              Eyewear as unique as you are. Discover designer frames that empower your individual style.
+              Shipping Worldwide | Lucknow
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-[#FF5722] transition-colors">
@@ -64,7 +77,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Vooglam. All rights reserved.
+            © 2025 Sell Any Chashme. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Mastercard_2019_logo.svg" alt="Mastercard" className="h-6" />

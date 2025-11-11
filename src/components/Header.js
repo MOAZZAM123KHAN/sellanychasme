@@ -20,8 +20,16 @@ const Header = () => {
     <header className="bg-[#1a1a1a] text-white sticky top-0 z-50">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="flex items-center">
-            <h1 className="text-2xl font-bold tracking-tight">vooglam.</h1>
+          <Link to="/" className="flex items-center gap-3">
+            <img
+              src="/WhatsApp Image 2025-11-06 at 5.18.48 PM.jpeg"
+              alt="Sell Any Chashme"
+              className="h-10 w-auto"
+            />
+            <div className="flex flex-col leading-tight">
+              <span className="text-xl font-bold tracking-tight">SELL ANY CHASHME</span>
+              <span className="text-xs text-gray-400">The Optical Company | SAC</span>
+            </div>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
